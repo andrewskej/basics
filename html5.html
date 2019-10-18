@@ -1,0 +1,79 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        section{
+            border:solid 1px gray;
+            margin: 5%;
+            padding: 3%;
+        }
+
+
+        
+    </style>
+
+    <body>
+
+
+        <section>
+            <h2>'canvas'</h2>
+            <canvas>
+        
+            </canvas>
+        </section>
+
+        <section>
+            <h2>'autio/video tags'</h2>
+            <audio src="">
+        
+            </audio>
+        
+            <video src="">
+        
+            </video>
+        </section>
+
+        <section>
+            <h2>'content editable'</h2>
+            <div contenteditable="true">
+                content for editing
+            </div>
+        </section>
+
+        
+        <section>
+            <h2>'local storage'</h2>
+            <script>
+                localStorage.variableName = "value";
+                // alert(localStorage.variableName);
+                localStorage.removeItem("variableName");
+                // alert(localStorage.variableName);
+            </script>
+        </section>
+
+
+        <section>
+            <h2>'input types, attributes and forms'</h2>
+            <form>
+                <input name="name" required placeholder="Your name" pattern="[A-z]{7}" />
+        
+                <input type="email" name="email" required placeholder="email@inwebson.com"/>
+        
+                <input type="url" name="url" placeholder="Homepage URL"/>
+        
+                <input type="number" name="age" min="18" max="99" />
+        
+                <textarea name="desc" placeholder="Describe yourself here..."></textarea>
+        
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+
+    </body>
+
+    <script>
+        console.log('ha..')
+    </script>
+
+</html>
